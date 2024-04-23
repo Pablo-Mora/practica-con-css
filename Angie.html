@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(45deg, #ce1919, #f7a130, #f8fc22);
+            height: 200vh;
+        }
+        header {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: cursive;
+            border: 4px solid purple;
+            border-style: dotted;
+        }
+        .section2 {
+            font-family: Helvetica;
+            p {
+                color: gray;
+                font-size: large;
+            }
+            li {
+                color: black;
+                font-size: large;
+            }
+        }
+        h1 {
+            text-align: center;
+            font-size: large;
+            font-family: cursive;
+            color: #9804ee;
+        }
+        h2 {
+            font-size: larger;
+            font-family: cursive;
+            color: #00ff22;
+        }
+        footer {
+            position: relative;
+            top: 120px;
+            text-align: center;
+            font-family: Arial;
+            background-color: fuchsia;
+        }
+    </style>
+    <title>nasa</title>
+</head>
+<body>
+<header>
+        <h1>Nasa</h1>
+</header>
+    <section class="section2">
+        <p>Nuestro hogar, el planeta Tierra, es un planeta terrestre y rocoso. Tiene una superficie sólida y activa, con montañas, valles, cañones, llanuras y mucho más.
+            La Tierra es especial porque es un planeta océano, ya que el agua cubre el 70% de su superficie.
+        </p>
+        <h2>Estructura y superficie</h2>
+            <ul>
+                <li>La Tierra es un planeta terrestre. Es pequeño y rocoso.</p></li>
+                <li>La atmósfera terrestre tiene el grosor perfecto para mantener la temperatura templada del planeta, para que seres vivos como nosotros podamos vivir en él. Es el único planeta de nuestro sistema solar que sabemos que tiene las condiciones necesarias para que haya vida. Está compuesto por nitrógeno, en su mayor parte, pero tiene una buena cantidad de oxígeno, que es lo que nos permite respirar.</li>
+            </ul>
+        <div>
+            <h2>El tiempo en la Tierra</h2>
+        <ul>
+            <li>Un día en la Tierra dura algo menos de 24 horas.</li>
+            <li>Un año en la Tierra dura 365,25 días. Ese 0,25 extra hace que cada 4 años tengamos que añadir un día más al calendario. Ese año se llama año bisiesto..</li>
+        </ul>
+        </div>
+        <div>
+            <h2>Los vecinos de la tierra</h2>
+                <ul>
+                    <li>La Tierra es el único planeta que tiene solo una luna</li>
+                    <li>La Tierra tiene muchos satélites que la observan y la estudian. Aún nos falta mucho por aprender sobre nuestro planeta.</li>
+                    <li>La Tierra es el tercer planeta desde el Sol en nuestro sistema solar. Así, nuestros vecinos más cercanos son Venus y Marte.</li>
+                </ul>
+    </section>
+    <section class="section4">
+            <div>
+                <h2>Tipos de sistema solar</h2>
+                <p>
+                    crear una division, en esa division crear una tabla de 5 filas por 
+                    4 columnas
+                    nombre comun, nombre generico, imagen, descripcion
+                </p>
+            </div>
+        <table class="table">
+            <tr>
+                <td>Nombre comun</td>
+                <td>Nombre generico</td>
+                <td>imagen</td>
+                <td>Descripcion</td>
+            </tr>
+            <tr>
+                <td>Nombre comun</td>
+                <td>Nombre generico</td>
+                <td>imagen</td>
+                <td>Descripcion</td>
+            </tr>
+            <tr>
+                <td>Nombre comun</td>
+                <td>Nombre generico</td>
+                <td>imagen</td>
+                <td>Descripcion</td>
+            </tr>
+            <tr>
+                <td>Nombre comun</td>
+                <td>Nombre generico</td>
+                <td>imagen</td>
+                <td>Descripcion</td>
+            </tr>
+            <tr>
+                <td>Nombre comun</td>
+                <td>Nombre generico</td>
+                <td>imagen</td>
+                <td>Descripcion</td>
+            </tr>
+        </table>
+        <h1>FORMULARIO</h1>
+        <div class="container">
+            <form action="practicascesde@gmail.com" method="get" enctype="text/plain">
+                <p>Bienvenido</p>
+                <span class="Nombre">
+                    <input type="text" name="Nombre" placeholder="Nombre"><br>
+                </span>
+                <span class="Apellido">
+                    <input type="text" name="Apellido" placeholder="Apellido"><br>
+                </span>
+                <span class="Email">
+                    <input type="email" placeholder="Email"><br>
+                </span>
+                <span class="Hombre">
+                    <label for="Hombre">Hombre</label>
+                    <input type="radio" name="Masculino" id="Hombre" value="Hombre"><br>
+                </span>
+                <span class="Mujer">
+                    <label for="Mujer">Mujer</label>
+                    <input type="radio" name="Femenino" id="Mujer" value="Mujer"><br>
+                </span>
+                <span class="Novedades">
+                    <input class="novedades" type="checkbox" name="novedades" id="novedades" value="si" checked>
+                    <label class="novedades" for="novedades">Deseo recibir información sobre novedades y ofertas</label><br><br>
+                </span>
+                <span class="condiciones">
+                    <input type="checkbox" name="condiciones" id="condiciones" value="si">
+                    <label for="condiciones">Declaro haber leido y aceptar las condiciones</label><br><br>
+                </span>
+                <span class="Enviar">
+                    <input type="button" value="Enviar">
+                </span>
+            </form>
+        </div>
+    </section>
+        <footer>
+            Ver información más detallada sobre el reino de los seres vivos en el siguiente video.
+            <a href="https://www.youtube.com/watch?v=GS34snY_P4o&t=16s&ab_channel=Ecolog%C3%ADaVerde" target="_blank">
+                Animalia
+            </a>
+            <article>Todos los derechos reservad@s de Angie Londoño</article>
+    </footer>
+</body>
+</html>
